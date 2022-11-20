@@ -1,0 +1,14 @@
+name: ChangeCreeper
+version: '${project.version}'
+main: changecreeper.changecreeper.ChangeCreeper
+api-version: 1.19
+commands:
+  creeper:
+    description: add creeper
+    aliases: [c]
+    permission: AzCommand.commands.creeper
+    permission-message: "you don't have any permissions!"
+    permissions:
+    default: op
+
+
